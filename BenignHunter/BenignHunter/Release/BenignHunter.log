@@ -1,8 +1,0 @@
-﻿  BenignHunter.cpp
-Z:\D\OffsecTools\BenignHunter\BenignHunter\BenignHunter\BenignHunter.cpp(68,20): warning C4018: '<': signed/unsigned mismatch
-  Generating code
-  1 of 5 functions (20.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  Finished generating code
-  BenignHunter.vcxproj -> Z:\D\OffsecTools\BenignHunter\BenignHunter\Release\BenignHunter.exe

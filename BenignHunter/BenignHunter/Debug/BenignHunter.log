@@ -1,5 +1,0 @@
-﻿  BenignHunter.cpp
-D:\OffsecTools\BenignHunter\BenignHunter\BenignHunter\BenignHunter.cpp(88,20): warning C4018: '<': signed/unsigned mismatch
-  BenignHunter.vcxproj -> D:\OffsecTools\BenignHunter\BenignHunter\Debug\BenignHunter.exe
-  'pwsh.exe' is not recognized as an internal or external command,
-  operable program or batch file.
