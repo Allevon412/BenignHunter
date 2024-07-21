@@ -1,0 +1,7 @@
+﻿  BenignHunter.cpp
+Z:\D\OffsecTools\BenignHunter\BenignHunter\BenignHunter\BenignHunter.cpp(68,20): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 5 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  BenignHunter.vcxproj -> Z:\D\OffsecTools\BenignHunter\BenignHunter\x64\Release\BenignHunter.exe
