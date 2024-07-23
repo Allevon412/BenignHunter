@@ -78,11 +78,15 @@ int main()
 				UINT32 u32Hash = HASH(pFunctionName);
 				printf("Syscall Name: %s\n", pFunctionName);
 				printf("Syscall Hash: 0x%08X\n", u32Hash);
-#if defined(_WIN64)
-				SSN = *(unsigned short*)((PBYTE)uAddress + 4);
-#else
-				SSN = *(unsigned short*)((PBYTE)uAddress + 1);
-#endif
+				for (int i = 0; i < 0x20; i++)
+				{
+					SSN = *(unsigned short*)(uAddress + i);
+					if ((SSN & 0x00B8) == 0x00b8)
+					{
+						SSN = *(unsigned short*)(uAddress + i + 1);
+						break;
+					}
+				}
 				printf("SSN %d\n", SSN);
 			}
 		}
